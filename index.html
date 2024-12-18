@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>GitHub Profile Viewer</title>
 </head>
 <body>
-  <div class="container">
-    <input type="text" id="input" placeholder="GitHub foydalanuvchi profili...">
-    <button id="button">save</button>
-    <div id="wrapper"></div>
+  <div id="app">
+    <h1>GitHub Profile Viewer</h1>
+    <input type="text" id="username" placeholder="Enter GitHub username" />
+    <button id="fetchProfile">Get Profile</button>
+    <div id="profile"></div>
   </div>
-  <script src="app.js"></script>
+<script src="./main.js"></script>
 </body>
 </html>
